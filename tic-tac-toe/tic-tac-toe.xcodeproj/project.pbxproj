@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		071D13CC25A8FD3900BF0481 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 071D13CB25A8FD3900BF0481 /* main.cpp */; };
+		071D13D525A94E6900BF0481 /* Board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 071D13D325A94E6900BF0481 /* Board.cpp */; };
+		071D13D925A94E7300BF0481 /* GamePiece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 071D13D725A94E7300BF0481 /* GamePiece.cpp */; };
+		071D13DD25A94E8500BF0481 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 071D13DB25A94E8500BF0481 /* Game.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		071D13C825A8FD3900BF0481 /* tic-tac-toe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "tic-tac-toe"; sourceTree = BUILT_PRODUCTS_DIR; };
 		071D13CB25A8FD3900BF0481 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		071D13D325A94E6900BF0481 /* Board.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Board.cpp; sourceTree = "<group>"; };
+		071D13D425A94E6900BF0481 /* Board.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Board.hpp; sourceTree = "<group>"; };
+		071D13D725A94E7300BF0481 /* GamePiece.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GamePiece.cpp; sourceTree = "<group>"; };
+		071D13D825A94E7300BF0481 /* GamePiece.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GamePiece.hpp; sourceTree = "<group>"; };
+		071D13DB25A94E8500BF0481 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		071D13DC25A94E8500BF0481 /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				071D13CB25A8FD3900BF0481 /* main.cpp */,
+				071D13D325A94E6900BF0481 /* Board.cpp */,
+				071D13D425A94E6900BF0481 /* Board.hpp */,
+				071D13D725A94E7300BF0481 /* GamePiece.cpp */,
+				071D13D825A94E7300BF0481 /* GamePiece.hpp */,
+				071D13DB25A94E8500BF0481 /* Game.cpp */,
+				071D13DC25A94E8500BF0481 /* Game.hpp */,
 			);
 			path = "tic-tac-toe";
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071D13D925A94E7300BF0481 /* GamePiece.cpp in Sources */,
+				071D13D525A94E6900BF0481 /* Board.cpp in Sources */,
 				071D13CC25A8FD3900BF0481 /* main.cpp in Sources */,
+				071D13DD25A94E8500BF0481 /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
